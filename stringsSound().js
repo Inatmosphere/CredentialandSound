@@ -28,11 +28,12 @@ function strings2()
     if(string3.length ==5) //check if zip code is right length//
 {
     document.getElementById("Updated string2").innerHTML = "Zip Code = " + string3  //write down zip code// 
+    x.pause(); //stops sound if zipcode is good//
 }
 else
 {
     alert("zipcode invalid")
-    x.play();  //playing sound if the zipcode is invalid
+    x.play();  //playing sound if the zipcode is invalid//
 }
 
 }
